@@ -17,7 +17,10 @@ app.listen(port, () => {
 
 // GET REQUEST. Using response.send will output the same as below
 app.get('/', (request, response) => {
-    response.send({ message: "HOMEPAGE ENDPOINT" })
+    database('products')
+        .then(products => {
+            response.send({ products: products })
+        })
 })
 
 // PRODUCTS
