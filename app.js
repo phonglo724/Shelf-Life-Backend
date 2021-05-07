@@ -7,6 +7,7 @@ const database = knex(config)
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
+
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -41,17 +42,24 @@ app.post('/products', (request, response) => {
     // response.json({ message: "POST REQUEST"})
     // console.log('body', request.body)
     database('products')
-        .insert({ 
-            name: request.body.name, 
-            image: request.body.image,
-            dateBought: request.body.dateBought,
-            expirationDate: request.body.expirationDate,
-            quantity: request.body.quantity,
-            category: request.body.category,
-            storage: request.body.storage
+        .where({ id: request.params.id })
+        .select()
+        .then(product => {
+            const {name} = product
+            database('lists')
+                .insert({name}, id)
         })
-        .returning(['id', 'name', 'image', 'dateBought', 'expirationDate', 'quantity', 'category', 'storage'])
-        .then(products => response.json(products[0]))
+        // .insert({ 
+        //     name: request.body.name, 
+        //     image: request.body.image,
+        //     dateBought: request.body.dateBought,
+        //     expirationDate: request.body.expirationDate,
+        //     quantity: request.body.quantity,
+        //     category: request.body.category,
+        //     storage: request.body.storage
+        // })
+        // .returning(['id', 'name', 'image', 'dateBought', 'expirationDate', 'quantity', 'category', 'storage'])
+        // .then(products => response.json(products[0]))
 });
 // DELETE REQUEST
 app.delete('/products/:id', (request, response) => {
@@ -61,3 +69,28 @@ app.delete('/products/:id', (request, response) => {
         .delete()
         .then(()=> response.send({message: `Product ${request.params.id} Deleted`}))
 });
+
+//GROCERY LIST
+//GET REQUEST
+// app.get('/lists', (request, response) => {
+//     database('lists')
+//         .then(lists => response.json(lists))
+// });
+//POST REQUEST
+// app.post('/lists', (request, response) => {
+//     database('lists')
+//         .where({ id: request.params.id })
+//         .select()
+//         .then(product => {
+//             const {name} = product
+//             database('lists')
+//             .insert({name}, id)
+//         })
+// });
+// DELETE REQUEST
+// app.delete('/lists/:id', (request, response) => {
+//     database('lists')
+//         .where({ id: request.params.id })
+//         .delete()
+//         .then(()=> response.send({message: `Product ${request.params.id} Deleted`}))
+// });
