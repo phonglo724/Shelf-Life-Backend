@@ -72,25 +72,25 @@ app.delete('/products/:id', (request, response) => {
 
 //GROCERY LIST
 //GET REQUEST
-// app.get('/lists', (request, response) => {
-//     database('lists')
-//         .then(lists => response.json(lists))
-// });
-//POST REQUEST
-// app.post('/lists', (request, response) => {
-//     database('lists')
-//         .where({ id: request.params.id })
-//         .select()
-//         .then(product => {
-//             const {name} = product
-//             database('lists')
-//             .insert({name}, id)
-//         })
-// });
+app.get('/lists', (request, response) => {
+    database('lists')
+        .then(lists => response.json(lists))
+});
+// POST REQUEST
+app.post('/lists', (request, response) => {
+    database('lists')
+        .returning(['id', 'name'])
+        .then(product => product.json())
+        // .then(product => {
+        //     const {name, id} = request.params
+        //     database('lists')
+        //     .insert({name}, id)
+        // })
+});
 // DELETE REQUEST
-// app.delete('/lists/:id', (request, response) => {
-//     database('lists')
-//         .where({ id: request.params.id })
-//         .delete()
-//         .then(()=> response.send({message: `Product ${request.params.id} Deleted`}))
-// });
+app.delete('/lists/:id', (request, response) => {
+    database('lists')
+        .where({ id: request.params.id })
+        .delete()
+        .then(()=> response.send({message: `Product ${request.params.id} Deleted`}))
+});
