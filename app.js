@@ -87,7 +87,7 @@ app.post('/lists', (request, response) => {
         //     .insert({name}, id)
         // })
 });
-// DELETE REQUEST
+// DELETE REQUEST. NOT SURE IF NEEDED YET.
 app.delete('/lists/:id', (request, response) => {
     database('lists')
         .where({ id: request.params.id })

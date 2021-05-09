@@ -195,6 +195,96 @@ exports.seed = function(knex) {
           storage: 'Freezer'
         },
         {
+          name: 'Romaine Lettuce', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6CMxJUBClxo9pHvSErQOQS5n0LMqNBDqI1g&usqp=CAU', 
+          dateBought: '2021-05-09', 
+          expirationDate: '2021-05-15', 
+          quantity: 3, 
+          category: 'Vegetables', 
+          storage: 'Fridge'
+        },
+        {
+          name: 'Chicken Breasts', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0MUSSmKOqc4AO4gjRm7HLiUBaU8wAimYWYw&usqp=CAU', 
+          dateBought: '2021-05-09', 
+          expirationDate: '2021-05-12', 
+          quantity: 4, 
+          category: 'Meat and Seafood', 
+          storage: 'Fridge'
+        },
+        {
+          name: 'Vanilla Yogurt', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv3g5QUISrI9IWk9UoLKvooKY4POv0e4hlbg&usqp=CAU', 
+          dateBought: '2021-05-09', 
+          expirationDate: '2021-05-23', 
+          quantity: 2, 
+          category: 'Other', 
+          storage: 'Fridge'
+        },
+        {
+          name: 'Ground Beef', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRjqIhgU1WfrfzBmZrwDyaihWZuLtZUgCksg&usqp=CAU', 
+          dateBought: '2021-05-09', 
+          expirationDate: '2021-05-11', 
+          quantity: 2, 
+          category: 'Meat and Seafood', 
+          storage: 'Fridge'
+        },
+        {
+          name: 'Ground Chicken', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxst5gxwhB9sLIDW9NxHKz4fo6J6iTA5eCg&usqp=CAU', 
+          dateBought: '2021-05-09', 
+          expirationDate: '2021-09-09', 
+          quantity: 2, 
+          category: 'Meat and Seafood', 
+          storage: 'Fridge'
+        },
+        {
+          name: 'Tator Tots', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSDDu4HkMkKSnqrfRHmWkl4gEsu6oagYLvYQ&usqp=CAU', 
+          dateBought: '2021-05-09', 
+          expirationDate: '2022-05-09', 
+          quantity: 2, 
+          category: 'Vegetables', 
+          storage: 'Freezer'
+        },
+        {
+          name: 'Spring Roll Wrappers', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIPjw-qXu3YSDBTtHVnsWqVuHgrlcZjuJRMw&usqp=CAU', 
+          dateBought: '2021-02-09', 
+          expirationDate: '2022-02-09', 
+          quantity: 4, 
+          category: 'Other', 
+          storage: 'Freezer'
+        },
+        {
+          name: 'Ground Pork', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9dLOXhzqDZxIWAMu-dde1qbfew63qOOHeRA&usqp=CAU', 
+          dateBought: '2021-02-09', 
+          expirationDate: '2021-06-09', 
+          quantity: 2, 
+          category: 'Meat and Seafood', 
+          storage: 'Freezer'
+        },
+        {
+          name: 'Eggo Waffles', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn9K-BMDiWexPx0Qf2EQEbHfk-MFaaHNdQmQ&usqp=CAU', 
+          dateBought: '2021-02-09', 
+          expirationDate: '2022-02-09', 
+          quantity: 2, 
+          category: 'Other', 
+          storage: 'Freezer'
+        },
+        {
+          name: 'Broccoli', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTke2zdvT4LjzoxGUpY-f2CaB62N4_FEpWSnw&usqp=CAU', 
+          dateBought: '2021-05-09', 
+          expirationDate: '2021-11-09', 
+          quantity: 2, 
+          category: 'Vegetables', 
+          storage: 'Freezer'
+        },
+        {
           name: 'Passion Fruit Juice', 
           image: 'https://www.seekpng.com/png/full/135-1354227_thumbnail-welchs-passion-fruit-juice.png', 
           dateBought: '2021-04-29', 
