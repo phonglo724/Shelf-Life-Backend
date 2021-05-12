@@ -16,7 +16,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Apples', 
-          image: 'https://www.pngfind.com/pngs/m/595-5952311_permalink-to-90-great-apples-png-this-month.png', 
+          image: 'https://freepngimg.com/thumb/apple_fruit/24632-1-apple-fruit-transparent.png', 
           dateBought: '2021-04-29', 
           expirationDate: '2021-05-20', 
           quantity: 4, 
@@ -25,7 +25,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Strawberries', 
-          image: 'https://www.clipartmax.com/png/middle/192-1920390_home-strawberry-png-image-transparent-background-strawberry-png.png', 
+          image: 'https://thumbs.dreamstime.com/b/strawberry-isolated-white-png-image-transparent-background-strawberry-isolated-white-137014553.jpg', 
           dateBought: '2021-05-07', 
           expirationDate: '2021-05-13', 
           quantity: 1, 
@@ -34,7 +34,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Blueberries', 
-          image: 'https://www.vhv.rs/dpng/d/430-4304002_blueberries-png-image-background-transparent-background-bowl-of.png', 
+          image: 'https://p.kindpng.com/picc/s/619-6195835_hinged-blueberry-container-container-of-blueberries-png-transparent.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-05-20', 
           quantity: 1, 
@@ -43,7 +43,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Milk', 
-          image: 'https://www.vhv.rs/dpng/d/4-40732_cute-milk-carton-png-transparent-png.png', 
+          image: 'https://dassonsexports.com/wp-content/uploads/2021/03/milk-jugs-16-1.jpg', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-05-17', 
           quantity: 1, 
@@ -52,7 +52,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Steak', 
-          image: 'https://www.vhv.rs/dpng/d/292-2920380_beefsteak-rib-eye-steak-cut-of-beef-raw.png', 
+          image: 'https://img2.pngio.com/download-free-png-imported-steaks-beef-steak-raw-meat-png-image-raw-meat-png-650_651.jpg', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-05-15', 
           quantity: 2, 
@@ -61,7 +61,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Chicken Wings', 
-          image: 'https://www.pngjoy.com/pngm/18/479277_chicken-wings-raw-chicken-wings-hd-png-download.png', 
+          image: 'https://5.imimg.com/data5/SD/XF/UX/SELLER-15358711/wings-500x500.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2022-05-10', 
           quantity: 12, 
@@ -70,7 +70,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Cilantro', 
-          image: 'https://mpng.subpng.com/20180330/tsw/kisspng-coriander-tamil-cuisine-herb-flavor-nutrition-parsley-5abe06c93df695.5049364415224030172538.jpg', 
+          image: 'https://img2.pngio.com/cilantro-png-png-image-culantro-png-612_225.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-05-20', 
           quantity: 1, 
@@ -79,7 +79,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Garlic', 
-          image: 'https://image.pngaaa.com/229/2581229-middle.png', 
+          image: 'https://s2.best-wallpaper.net/wallpaper/1280x1024/2004/Garlic-white-background_1280x1024.jpg', 
           dateBought: '2021-04-29', 
           expirationDate: '2021-05-20', 
           quantity: 2, 
@@ -106,7 +106,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Bread', 
-          image: 'https://img.favpng.com/13/12/7/sliced-bread-loaf-white-bread-toast-png-favpng-60MV4vbgn2cVypV0sFh2ReYB4.jpg', 
+          image: 'https://www.pngarts.com/files/3/Brown-Bread-PNG-Image-With-Transparent-Background.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-05-14', 
           quantity: 1, 
@@ -124,7 +124,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Sour Cream and Onion Chips', 
-          image: 'https://toppng.com/uploads/preview/lays-sour-cream-onion-frito-lay-lays-sour-cream-onion-potato-chips-11563082148oo1sphzjmm.png', 
+          image: 'https://www.meijer.com/content/dam/meijer/product/0002/84/0019/96/0002840019963_1_A1C1_0600.png', 
           dateBought: '2021-04-29', 
           expirationDate: '2021-05-20', 
           quantity: 4, 
@@ -277,7 +277,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Broccoli', 
-          image: 'https://lh3.googleusercontent.com/proxy/sMsGDjO8LYkkOxlqqfUq-nHdRFD_m4RMynFCbuObeQpx1Wv8MG4-JkXjLpteenM0RuBVrxlDwtW5k-gNLxdQu-KIJpv5YOjkylT2KPobD2fYzURKJg_8Nhj3lS8LSCN_iZmB3HL6x-wtIZwQ', 
+          image: 'https://www.pngitem.com/pimgs/m/122-1224458_broccoli-broccoli-emoji-png-transparent-png.png', 
           dateBought: '2021-05-09', 
           expirationDate: '2021-11-09', 
           quantity: 2, 
@@ -286,7 +286,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Thai Peppers', 
-          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYl_dJk2LIWf0701NidDJsBuxtFhEsc0STYg&usqp=CAU', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfLGrAk9w6PQj8KlCUQ1qoNP9ptHkFXXnJA&usqp=CAU', 
           dateBought: '2021-02-10', 
           expirationDate: '2021-06-10', 
           quantity: 2, 
@@ -295,7 +295,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Popcorn Shrimp', 
-          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9jyrb0n38neKmzTHZy9V7gWHXd6Zc5_FONQ&usqp=CAU', 
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAexW0Qx1im8JVhwpb3qM0kFdva_4ZSH4baA&usqp=CAU', 
           dateBought: '2021-01-15', 
           expirationDate: '2021-10-15', 
           quantity: 1, 
@@ -349,7 +349,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Eggs', 
-          image: 'http://assets.stickpng.com/images/580b57fbd9996e24bc43c10b.png', 
+          image: 'https://freepikpsd.com/wp-content/uploads/2019/10/dozen-eggs-png-4-Transparent-Images.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-06-06', 
           quantity: 2, 
@@ -358,7 +358,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Ranch', 
-          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmKtyxlIKU9iuwLIpIsJ6sfZpBQnO3LMybQ&usqp=CAU', 
+          image: 'https://www.hiddenvalley.com/wp-content/uploads/2021/04/Original-Ranch-Bottle-4_5.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-07-10', 
           quantity: 1, 
@@ -403,7 +403,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Lemon Grass', 
-          image: 'https://mpng.subpng.com/20180509/xse/kisspng-cymbopogon-citratus-thai-cuisine-tom-kha-kai-herb-5af2f1df6ce7a0.0807998315258710714461.jpg', 
+          image: 'https://www.pngitem.com/pimgs/m/113-1132840_transparent-lemongrass-clipart-lemon-grass-png-png-download.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-05-20', 
           quantity: 4, 
@@ -439,7 +439,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Ketchup', 
-          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYhyt7AhFFS6xgTCgojPF7GGKrbpYZNG9Zhw&usqp=CAU', 
+          image: 'https://www.kindpng.com/picc/m/2-20402_clipart-transparent-background-free-heinz-ketchup-bottle-png.png', 
           dateBought: '2021-02-10', 
           expirationDate: '2021-08-10', 
           quantity: 1, 
@@ -475,7 +475,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Lemons', 
-          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1-wfdfsp2Sbl7gZiAGWMpKlEjzCdslIvS4w&usqp=CAU', 
+          image: 'https://www.pngitem.com/pimgs/m/152-1525478_transparent-background-lemon-png-png-download.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-05-31', 
           quantity: 4, 
@@ -484,7 +484,7 @@ exports.seed = function(knex) {
         },
         {
           name: 'Limes', 
-          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE3CZ0XeCvkMFeUDMSHIXVA4Ri1pKZlCHRmg&usqp=CAU', 
+          image: 'https://www.kindpng.com/picc/m/6-66134_transparent-background-lime-png-png-download.png', 
           dateBought: '2021-05-10', 
           expirationDate: '2021-06-30', 
           quantity: 2, 
@@ -562,15 +562,6 @@ exports.seed = function(knex) {
           quantity: 1, 
           category: 'Condiments and Spices', 
           storage: 'Fridge'
-        },
-        {
-          name: 'Agar Dessert Mix', 
-          image: 'https://www.ustrading.com/img/products/xl/54037.png', 
-          dateBought: '2021-01-10', 
-          expirationDate: '2021-09-10', 
-          quantity: 4, 
-          category: 'Other', 
-          storage: 'Pantry'
         },
         {
           name: 'Agar Dessert Mix', 
